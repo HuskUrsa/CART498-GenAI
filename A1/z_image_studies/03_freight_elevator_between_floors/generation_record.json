@@ -1,0 +1,30 @@
+{
+  "scenario": "03_freight_elevator_between_floors",
+  "model": "filipstrand/Z-Image-Turbo-mflux-4bit",
+  "runtime": "MFLUX/MLX on Apple silicon",
+  "width": 768,
+  "height": 768,
+  "steps": 9,
+  "prompt_file": "prompt.txt",
+  "prompt_status": "exact saved generation prompt, shared across three seeds",
+  "outputs": [
+    {
+      "image": "01_seed_928835316.jpg",
+      "seed": 928835316,
+      "source_png": "frame_928835316.png",
+      "source_sha256": "7e4dc0068c43f1385f4cc07aa6a511e5ee10bc726f9da0630cd314c5a37c7fd2"
+    },
+    {
+      "image": "02_seed_227369440.jpg",
+      "seed": 227369440,
+      "source_png": "frame_227369440.png",
+      "source_sha256": "1cf7e4d71fb64018cd6b254dc5d8e1afa3e51010d764277b1ecfce69b2c4e947"
+    },
+    {
+      "image": "03_seed_519473175.jpg",
+      "seed": 519473175,
+      "source_png": "frame_519473175.png",
+      "source_sha256": "fb3e5a3d47a6cf83be81e124065ae0fd56569ae58f5075f9953440d3fcd44313"
+    }
+  ]
+}
