@@ -1,0 +1,30 @@
+{
+  "scenario": "01_after_swim_receiver",
+  "model": "filipstrand/Z-Image-Turbo-mflux-4bit",
+  "runtime": "MFLUX/MLX on Apple silicon",
+  "width": 768,
+  "height": 768,
+  "steps": 9,
+  "prompt_file": "prompt.txt",
+  "prompt_status": "exact saved generation prompt, shared across three seeds",
+  "outputs": [
+    {
+      "image": "01_seed_728129971.jpg",
+      "seed": 728129971,
+      "source_png": "frame_728129971.png",
+      "source_sha256": "e362b4b687292c6f206691714bc72adc977fb9ff8039366c1c7ab2c28ac8cd16"
+    },
+    {
+      "image": "02_seed_223286142.jpg",
+      "seed": 223286142,
+      "source_png": "frame_223286142.png",
+      "source_sha256": "d693a7ad40ae0ee99ffbed18eff1b1b5158c543b27feef670704616a34971f84"
+    },
+    {
+      "image": "03_seed_558008368.jpg",
+      "seed": 558008368,
+      "source_png": "frame_558008368.png",
+      "source_sha256": "8d6ddb4f4f785d2cd4e42ce52aee5a5d0e1508268e393f07aee2b541f34323d5"
+    }
+  ]
+}
