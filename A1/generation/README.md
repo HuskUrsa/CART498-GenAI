@@ -1,0 +1,5 @@
+# Z-Image generation method
+
+`generate_mflux_storyboard.py` is an unchanged copy of the local Python generator used for the original Z-Image storyboard workflow. It calls the MFLUX Z-Image Turbo command-line tool, records exact prompts and seeds in `manifest.json`, and saves PNG frames and a contact sheet. It is **not Diffusers code**. The source copy was at `local_ai_image_test/scripts/generate_mflux_storyboard.py` in Sam's local Numogram workspace; the copied file has the same SHA-256 hash (`3f1349077bfdafb2f22b07df6aab8f90960af12741f1e941fea25351e8764f85`).
+
+The original script resolves its virtual environment and model cache relative to its original project directory, so this archived copy is evidence of the method rather than a standalone ready-to-run setup. The four original `manifest.json` records remain in the D2 source folders. For the submitted JPG exports, each `z_image_studies/<scenario>/generation_record.json` maps the output back to its source PNG and SHA-256 hash, with model, size, steps, and seed. No Diffusers run is claimed.
