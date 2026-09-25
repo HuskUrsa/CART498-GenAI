@@ -1,0 +1,30 @@
+{
+  "scenario": "02_white_room_near_touch",
+  "model": "filipstrand/Z-Image-Turbo-mflux-4bit",
+  "runtime": "MFLUX/MLX on Apple silicon",
+  "width": 768,
+  "height": 768,
+  "steps": 9,
+  "prompt_file": "prompt.txt",
+  "prompt_status": "exact saved generation prompt, shared across three seeds",
+  "outputs": [
+    {
+      "image": "01_seed_918224354.jpg",
+      "seed": 918224354,
+      "source_png": "frame_918224354.png",
+      "source_sha256": "959b8d41e70e41b22ba3c7545dd450ed3774cac65fa0f842a61141fcda16b065"
+    },
+    {
+      "image": "02_seed_535240073.jpg",
+      "seed": 535240073,
+      "source_png": "frame_535240073.png",
+      "source_sha256": "4045e0137b3929299a17e629e3d33fc9a25075a18a9a5c7f3f3ac9ea9a45928f"
+    },
+    {
+      "image": "03_seed_742488792.jpg",
+      "seed": 742488792,
+      "source_png": "frame_742488792.png",
+      "source_sha256": "c1ad791cabf51827e9b7659b554a43823a4bfe2a09562b520b0adbcdc6fd4127"
+    }
+  ]
+}
