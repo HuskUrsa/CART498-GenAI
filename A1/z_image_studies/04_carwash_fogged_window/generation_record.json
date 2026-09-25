@@ -1,0 +1,30 @@
+{
+  "scenario": "04_carwash_fogged_window",
+  "model": "filipstrand/Z-Image-Turbo-mflux-4bit",
+  "runtime": "MFLUX/MLX on Apple silicon",
+  "width": 768,
+  "height": 768,
+  "steps": 9,
+  "prompt_file": "prompt.txt",
+  "prompt_status": "exact saved generation prompt, shared across three seeds",
+  "outputs": [
+    {
+      "image": "01_seed_87353459.jpg",
+      "seed": 87353459,
+      "source_png": "frame_87353459.png",
+      "source_sha256": "4aadc3add47edca8b24801e868c94db3dae1a0a4eb367614333c65f45e906f41"
+    },
+    {
+      "image": "02_seed_364487729.jpg",
+      "seed": 364487729,
+      "source_png": "frame_364487729.png",
+      "source_sha256": "686c9bda57dc9c64b0fbddb8e5e0f13f2b538076fcd8b1ab66234fc132273174"
+    },
+    {
+      "image": "03_seed_782654091.jpg",
+      "seed": 782654091,
+      "source_png": "frame_782654091.png",
+      "source_sha256": "d0b915af22f094005a8cb71ef994c50a88d775d30633ca7372e1f2724d5f9486"
+    }
+  ]
+}
