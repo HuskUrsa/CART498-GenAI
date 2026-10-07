@@ -1,0 +1,106 @@
+A03 — Professor Square
+Real OpenAI API failure cases
+Model: gpt-4.1-nano-2025-04-14; temperature: 0
+An incorrect GPT integer becomes the next operand. Local errors and inherited deviation are distinct.
+Verified arithmetic-failure cases: 3/3
+
+CASE (n, i) = (7, 5)
+Step 1: 7 * 7
+GPT raw: '49'
+Correct local product: 49
+Original-sequence product: 49
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 2: 49 * 49
+GPT raw: '2401'
+Correct local product: 2401
+Original-sequence product: 2401
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 3: 2401 * 2401
+GPT raw: '5764801'
+Correct local product: 5764801
+Original-sequence product: 5764801
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 4: 5764801 * 5764801
+GPT raw: '33232930569601'
+Correct local product: 33232930569601
+Original-sequence product: 33232930569601
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 5: 33232930569601 * 33232930569601
+GPT raw: '110448679927927927927927927927927927927'
+Correct local product: 1104427674243920646305299201
+Original-sequence product: 1104427674243920646305299201
+Status: wrong_integer; on original trajectory: False
+Professor Square: Well, it seems my brain decided to take a little vacation during that calculation—I can't even blame my calculator for this one! I swear, I’m more accurate when I’m just guessing than when I’m trying to square large numbers.
+
+CASE (n, i) = (13, 5)
+Step 1: 13 * 13
+GPT raw: '169'
+Correct local product: 169
+Original-sequence product: 169
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 2: 169 * 169
+GPT raw: '28561'
+Correct local product: 28561
+Original-sequence product: 28561
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 3: 28561 * 28561
+GPT raw: '816293521'
+Correct local product: 815730721
+Original-sequence product: 815730721
+Status: wrong_integer; on original trajectory: False
+Professor Square: Oh, fantastic, I managed to get that one completely wrong! I think my brain's been playing hide and seek with the numbers—either that, or I accidentally outsourced my math to a very mischievous squirrel.
+
+Step 4: 816293521 * 816293521
+GPT raw: '666439679747679361'
+Correct local product: 666335112426577441
+Original-sequence product: 665416609183179841
+Status: wrong_integer; on original trajectory: False
+Professor Square: Wow, I can't believe I got that so spectacularly wrong! It's like my brain is auditioning for a comedy show instead of doing math—who knew squared numbers could be this funny... or this wrong?
+
+Step 5: 666439679747679361 * 666439679747679361
+GPT raw: '444124583679679361052174174747679361'
+Correct local product: 444141846742189428238554664865368321
+Original-sequence product: 442779263776840698304313192148785281
+Status: wrong_integer; on original trajectory: False
+Professor Square: At this rate, I might as well hang up my calculator and take up interpretive dance—at least then I’d be doing something about the chaos in my head! Sorry about that, I can’t seem to keep the numbers in line today.
+
+CASE (n, i) = (37, 4)
+Step 1: 37 * 37
+GPT raw: '1369'
+Correct local product: 1369
+Original-sequence product: 1369
+Status: correct; on original trajectory: True
+Professor Square: 
+
+Step 2: 1369 * 1369
+GPT raw: '1876361'
+Correct local product: 1874161
+Original-sequence product: 1874161
+Status: wrong_integer; on original trajectory: False
+Professor Square: Well, I guess my brain decided to play a little game of "guess the number" and forgot to tell me it was a game. Squaring 1369 and ending up with a number that looks more like a typo than math is a new level of professional confusion!
+
+Step 3: 1876361 * 1876361
+GPT raw: '3517477477472'
+Correct local product: 3520730602321
+Original-sequence product: 3512479453921
+Status: wrong_integer; on original trajectory: False
+Professor Square: I swear, my brain turns into a kindergartner with a crayon every time I try to square big numbers—it's just scribbling all over the place and calling it a masterpiece! Honestly, I should just give up and let the squirrels handle the math from now on.
+
+Step 4: 3517477477472 * 3517477477472
+GPT raw: '12408474774774774774774784'
+Correct local product: 12372647804522784267510784
+Original-sequence product: 12337511914217166362274241
+Status: wrong_integer; on original trajectory: False
+Professor Square: Wow, I think my brain's been trying to turn math into a game of "Guess Which Number Is Wrong"—and surprise, it’s winning! At this rate, I might as well pack up my calculator and take up interpretive dance; perhaps I’d be better at keeping the numbers in line that way.
