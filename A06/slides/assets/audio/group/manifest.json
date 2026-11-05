@@ -1,0 +1,26 @@
+[
+  {
+    "original_filename": "The Final Stand.mp3",
+    "file": "assets/audio/group/the-final-stand.mp3",
+    "display_title": "The Final Stand",
+    "sha256": "49e99c599e04e5bdecb66020944a0ae337d700dfd8b64edf2c7aa0672786ad88"
+  },
+  {
+    "original_filename": "Mariachi Techno x Raise It Up, (M… x Mariachi Techno x Raise It Up, (M… (Mashup).mp3",
+    "file": "assets/audio/group/mariachi-mashup.mp3",
+    "display_title": "Mariachi Techno × Raise It Up",
+    "sha256": "7585847daabeb0697642198af9291ec669efeed8b50f177fc5b7f6c09699be16"
+  },
+  {
+    "original_filename": "Raise It Up, Pass It Around x Bri… x Raise It Up, Pass It Around x Bri… (Mashup).mp3",
+    "file": "assets/audio/group/raise-it-up-mashup.mp3",
+    "display_title": "Raise It Up, Pass It Around × Bri…",
+    "sha256": "a9dca790edb2d490641e4d61a15bf37f6b39d11d444fc0b08a951cc1cd652d3f"
+  },
+  {
+    "original_filename": "Mariachi Techno x Raise It Up, (Mashup) x The Final Stand (Mashup).mp3",
+    "file": "assets/audio/group/final-mashup.mp3",
+    "display_title": "Mariachi Techno × Raise It Up × The Final Stand",
+    "sha256": "a45f03f9ce6ea348bb1993ced8a885354cda57594bf59b29a7d49ecd8446d7dc"
+  }
+]
